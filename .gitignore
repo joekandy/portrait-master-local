@@ -1,0 +1,72 @@
+﻿# Portrait Master FLUX - .gitignore
+
+# Modelli AI (file grandi)
+*.safetensors
+*.bin
+*.ckpt
+*.pth
+*.pt
+models/
+ComfyUI/models/
+
+# Output generato
+output/
+ComfyUI/output/
+temp/
+cache/
+
+# Log e debug
+*.log
+logs/
+debug/
+
+# Dipendenze Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+
+# OS specifici
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Configurazioni locali
+config.local.json
+settings.local.yaml
+
+# Download temporanei
+downloads/
+*.tmp
+*.temp
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# ComfyUI specifici
+ComfyUI/custom_nodes/*/models/
+ComfyUI/web/extensions/
+ComfyUI/user/
+
+# Backup
+*.backup
+*.bak
+backup_*/
